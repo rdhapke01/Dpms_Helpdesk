@@ -1,0 +1,12 @@
+/* PriorityWiseReport.module.css */
+.canvasContainer {
+    /* Add styles for the container div */
+    margin: 20px; /* Example margin */
+  }
+  
+  .canvas {
+    /* Add styles for the canvas element */
+    width: 100%; /* Example width */
+    height: 160px; /* Example height */
+  }
+  

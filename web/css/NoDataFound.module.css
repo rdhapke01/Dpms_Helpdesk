@@ -1,0 +1,43 @@
+
+.no-data-found-container {
+  position: relative;
+  height: calc(100vh - 84px) !important;
+  /* background-color: #fff; */
+}
+.no-data-found-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.no-data-found img {
+  max-width: 300px; 
+  height: auto; 
+  display: block;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+.add-data-button {
+  position: absolute;
+  top: 20px; 
+  right: 20px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #5A6ACF; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 1; 
+}
+
+.add-data-button:hover {
+  background-color: #4557ce; 
+}
+
+.add-data-button {
+  position: absolute;
+  right: 20px; 
+}

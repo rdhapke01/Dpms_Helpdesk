@@ -1,0 +1,90 @@
+.card {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: #ffffff;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  /* border-top: 1px solid #ccc; */
+  text-align: center;
+}
+
+.card-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.card-th,
+.card-td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-th {
+  cursor: pointer;
+ }
+
+.export-button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #5A6ACF !important; 
+  color: #fff;
+  cursor: pointer;
+}
+.export-button:hover {
+  background-color: #5A6ACF;
+  border: 1px solid #3448c8;
+}
+.view-button{
+ color: #5A6ACF !important; 
+}
+.view-button:hover{
+  color: #3448c8 !important; 
+ }
+.sort-arrow {
+  margin-left: 1px; /* Adjust as needed */
+}
+
+
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-left {
+  flex: 1; /* This makes the title take as much space as possible */
+}
+
+
+
+
+.card-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.table-container {
+  max-height: 380px; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+}

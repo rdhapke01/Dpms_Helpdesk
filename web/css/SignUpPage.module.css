@@ -1,0 +1,27 @@
+
+  .SignUpForm {
+    z-index: 2;
+    position: absolute;
+    top: 50vh !important;
+    left: 82% !important;
+    transform: translate(50%, -50%) !important;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    box-shadow: 1px 0 3px 0px #3b4097;
+    background-color: #3d3f96;
+    width: 32em;
+  }
+  .signUpBtn{
+    margin :0 auto;
+    background-color: #0d1055 !important;
+    border-color: #0d1055 !important ;
+  }
+ 
+  .loginLable{
+font-size: 11px;
+  }
+  .loginFrm{
+    font-size: 11px;
+    text-decoration: none;
+    color:beige;
+  }

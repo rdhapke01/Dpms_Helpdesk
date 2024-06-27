@@ -1,0 +1,61 @@
+
+.flex {
+    display: flex;
+    gap: 70px;
+}
+  
+.align-items-center {
+    align-items: center;
+}
+  
+.p-text{
+    line-height: 4;
+    font-size: 14px;
+  
+
+}
+
+.p-menuitem-link{
+    line-height: 5; 
+  }
+  
+
+  .item {
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+  }
+  
+  .item:hover {
+    background-color: #f0f0f0;
+  }
+  
+
+.HeaderBar {
+    overflow-y: visible;
+    padding-top: 1em;
+  
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+
+.mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.label {
+    color: black;
+    margin-right: 10px; 
+  }
+  .labelm {
+    color: black !important;
+    margin-right: 10px !important; 
+  }
+  .p-menuitem-text{
+    line-height: 4 ;
+}
+
+
+  
+

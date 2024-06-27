@@ -1,0 +1,13 @@
+.submenuStyle{
+ font-weight: 400 !important;
+ padding: 7px 25px !important;
+}
+.submenuStyle:hover{
+background-color: rgb(226, 223, 223);
+width:13em !important;
+color: #432790 !important;
+}
+
+.sideBaricon{
+    color: #432790 !important;
+}

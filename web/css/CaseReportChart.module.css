@@ -1,0 +1,12 @@
+/* CaseReportChart.module.css */
+/* .canvas-container {
+    margin: 20px; 
+  } */
+  
+  .canvas {
+    /* Add styles for the canvas element */
+    width: 80%; /* Example width */
+    height: 300px; /* Example height */
+  }
+  
+  

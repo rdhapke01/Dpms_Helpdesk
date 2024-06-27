@@ -1,0 +1,39 @@
+.containerFluid {
+  justify-content: center !important;
+  display: flex !important;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginForm {
+  z-index: 2;
+  box-shadow: 1px 0 3px 0px #eaeff3;
+  background-color: #eaeff3;
+  width: 24em;
+
+}
+
+.loginBtn {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #429AE1 !important;
+  border-color: #429AE1 !important;
+}
+
+.loginBtn:hover {
+  background-color: #1883d9 !important;
+}
+
+.loginLable {
+  font-size: 11px;
+}
+
+.loginFrm {
+  font-size: 11px;
+  text-decoration: none;
+  color: black;
+}
+
+.loginText {
+  font-size: 10px;
+}
